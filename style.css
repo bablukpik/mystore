@@ -1,0 +1,43 @@
+*{margin:0; padding:0;}
+.wrapper{width:960px; margin:0 auto;}
+.last_child{margin-right:0px !important; padding-right:0px !important;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.clear{clear:both}
+h1,h2,h3,h4,h5,h6{margin-bottom:15px;}
+p{margin-bottom:15px;}
+div{overflow:hidden;}
+.fix{overflow:hidden;}
+body{background-color:#aaabae}
+
+.header_area{background-color:#3A5795; min-height:130px;}
+.header{}
+.logo{margin-top: 40px;}
+.site_title{
+	color: #ffce43;
+	margin-top: 46px;
+}
+.menu_area{background-color:#00ABF1; min-height:50px;}
+.menu{}
+.menu ul{list-style:none; margin-top:5px;}
+.menu ul li{float:left; margin-right:5px;}
+.menu ul li a{color:#ddd; display:block; text-decoration:none; padding:10px 25px; background-color:#0c3999; border-radius:5px;}
+.menu ul li a:hover{color:#F6A72A; background-color:#f0fofo;}
+.content_area{margin-top:20px;}
+.content{}
+.left_sidebar{width:230px; background-color:#ddd; padding:20px;}
+.sidebar_menu{}
+.sidebar_menu ul{list-style:none; margin-top:5px;}
+.sidebar_menu ul li{ margin-right:5px; border-bottom:1px dotted #3A5795}
+.sidebar_menu ul li a{color:#3A5795; display:block; text-decoration:none; padding:10px 25px; border-radius:5px;}
+.sidebar_menu ul li a:hover{color:#098; background-color:#ddd;}
+.promo{width:600px; background-color:#ddd; padding:20px;}
+.promo h2{text-align:center}
+.footer_area{background-color:#1D1D1D; min-height:200px; margin-top:20px;}
+.footer{}
+.copyright{margin-top:50px;}
+.copyright p{color:#ddd;}
+.socialmedia{margin-top:50px;}
+.socialmedia ul{list-style:none}
+.socialmedia ul li{float:left; margin-right:10px;}
+
