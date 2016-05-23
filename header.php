@@ -40,11 +40,11 @@
 				<div class="sidebar_menu">
 					<ul>
 					 <?php
-						$sql="select * from category";
-						$result=mysql_query($sql, $link);
-						while($row=mysql_fetch_array($result)){
-							echo "<li><a href='products.php?cat_id=$row[category_id]'>$row[category_name]</a></li>";
-						}
+							$sql="select * from category";
+							$result=mysql_query($sql, $link);
+							while($row=mysql_fetch_array($result)){
+								echo "<li><a href='products.php?cat_id=$row[category_id]'>$row[category_name]</a></li>";
+							}
 					 ?>
 					</ul>
 				</div>
